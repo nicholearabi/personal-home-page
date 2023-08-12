@@ -1,0 +1,188 @@
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+/* =================
+  WRITE YOUR CSS HERE.
+  Check the ⌄ for help with formatting and validating your code.
+  You must write some CSS to complete this challenge.
+   ===================
+*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap");
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6d6875;
+  background: linear-gradient(#5e548e, #be95c4);
+  font-family: "Quicksand", itlic;
+  max-width: 100%;
+  height: auto;
+}
+
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors {
+  display: none;
+}
+div {
+  display: block;
+}
+.main-greeting {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 64px 64px 64px 64px;
+}
+#main-greeting-sub {
+  margin: 0;
+  animation-name: rainbow;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  font-family: "Grape Nuts", cursive;
+  font-size: 80px;
+  text-color: #d6ccc2;
+}
+@keyframes rainbow {
+  10% {
+    color: #7209b7;
+  }
+  50% {
+    color: #ff70a6;
+  }
+  100% {
+    color: #9a8c98;
+  }
+}
+.content {
+  width: 50%;
+  height: auto;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+#watch-my-video {
+  font-family: "Grape Nuts", cursive;
+  font-size: 40px;
+}
+.videosection {
+  margin-left: 20px;
+}
+
+#video-title {
+  font-family: "Grape Nuts", cursive;
+  font-size: 70px;
+}
+
+#video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 40%;
+}
+#image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  opacity: 0.3;
+}
+#form {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  width: 600px;
+  border: 5px solid #ccc;
+  border-radius: 20px;
+  padding: 20px;
+  border: 3px solid #fdc5f5;
+  border-radius: 20px;
+  padding: 30px;
+  font-size: 15px;
+}
+
+#area {
+  font-family: "Quicksand", sans-serif;
+  width: 100%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  background-color: #fde2e4;
+  font-size: 16px;
+  resize: none;
+}
+#submit {
+  background-color: #537895;
+  background-image: linear-gradient(#9d4edd 0%, #4d194d 20%, #47126b 75%);
+  font-family: "Quicksand", sans-serif;
+  border: 2px solid #fdc5f5;
+  border-radius: 10px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+#contact-me {
+  color: gray;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #74546a;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.c-site-footer {
+  background-color: #53006f;
+  width: auto;
+  height: auto;
+  padding: 20px 20px 20px 20px;
+  margin-top: 20px;
+}
+#video-title-text {
+  font-size: 20px;
+    width: 50%;
+}
+.footer-info {
+  background-color: #53006f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+/* don't edit this */
+.jest-lite-report__status--pass {
+  background: var(--color-pass);
+}
+.jest-lite-report__errors { display:none }
