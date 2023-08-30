@@ -4,23 +4,8 @@
   <meta charset="UTF-8">
   <title>CodePen - Personal Home Page  Template</title>
   <link rel='stylesheet' href='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.css'><link rel="stylesheet" href="./style.css">
-  <p>
-  The <button id="noun1">dog</button> <button id="verb">saw</button> the
-  <button id="adjective">white</button>
-  <button id="noun2">cat</button>
-</p>
-<p>
-<button id="daymode"> Day Mode </button>
-<button id="nightmode"> Night Mode </button>
-<ul id="list">
-<li>CYf</li>
-<li>Coding</li>
-<li>Bus strike</li>
-</ul>
-</p>
-<p>
-<button id="contact"> Contact </button>
-</p>
+
+
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -56,7 +41,7 @@ Make the first test pass by adding a <header> </header>-->
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Personal Page</title>
 </head>
 <header class="c-site-header">
@@ -92,6 +77,12 @@ Make the first test pass by adding a <header> </header>-->
             <br>
             <a id="watch-my-video" href="#video-title">10 Great Inventions by Women</a>
         <p>
+            <p>So far you have rolled:</p>
+            <ul id="list"></ul>
+            <button id="button_roll">Roll the dice</button>
+            <p>Total: <span id="total">0</span>. <span id="info">Keep playing!</span></p>
+            <button id="button_remove">Remove the last roll</button>
+            <button id="button_restart">Start again</button>
     </div>
     <div class="videosection">
         <h2 id="video-title">Inspire by women</h2>
@@ -121,14 +112,7 @@ Make the first test pass by adding a <header> </header>-->
     </div>
 </footer>
 </html>
-<!-- Your test console.
-Don't delete!-->
-<aside id="tests" aria-label="Test Readout." aria-live="polite" style="overflow:auto">
-</aside>
-<!-- partial -->
-  <script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/core.js'></script>
-<script src='https://unpkg.com/jest-lite@1.0.0-alpha.4/dist/prettify.js'></script><script  src="./script.js"></script>
-
+<script src="script.js"></script>
 </body>
 </html>
 
